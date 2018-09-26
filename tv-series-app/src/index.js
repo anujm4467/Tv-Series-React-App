@@ -4,5 +4,14 @@ import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//const test = React.createElement('h1', {}, 'hello world');
+
+
+// const currentDate = ()=>{
+//     var date = new Date();
+//     return date.toDateString();
+// }
+// const test = <h1> CURRENT DATE IS !! : {currentDate()}</h1>
+
+ReactDOM.render(<App /> , document.getElementById('root'));
 registerServiceWorker();
